@@ -1,0 +1,60 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+#wrapper
+{
+    text-align: center;
+    height: 825px;
+}
+
+    #main_div
+    {
+        height: 550px;
+        overflow: auto;
+    }
+
+        .note_div
+        {
+            border: 1px solid white;
+            border-radius: 10px;
+        }
+
+        .form-control::-webkit-input-placeholder{
+            color:red;
+            opacity:0.5
+        }
+
+        .form-control::-moz-placeholder {
+            color: red;
+            opacity: 0.5;
+        }
+
+          .form-control:-ms-input-placeholder {
+            color: red;
+            opacity: 0.5;
+        }   
+
+        .error_note
+        {
+            border: 1px solid red;
+            border-radius: 10px;
+        }
+
+            #note_label
+            {
+                font-size: 25px;
+                color: white;
+            }
+
+            .time_text
+            {
+                float: right;
+            }
+
+            .content_text
+            {
+                font-size: 25px;
+            }
